@@ -1,0 +1,16 @@
+<template>
+    <require from="../../appStyles.css"></require>
+
+    <h3>Expend <span class="underline">one</span> panel at a time</h3>
+    <div class="aurelia-accordion-sample-div">
+        <accordion panels.two-way="views"
+                   vm.two-way="$this"></accordion>    
+    </div>
+
+    <h3>Expend <span class="underline">multiple</span> panels at a time</h3>
+    <div class="aurelia-accordion-sample-div">
+        <accordion allow-expend-multiple="true"
+                   panels.two-way="otherViews"
+                   vm.two-way="$this"></accordion>    
+    </div>
+</template>

@@ -1,0 +1,12 @@
+.aurelia-accordion-panel-header {
+    /*background: lightblue;*/
+}
+
+.aurelia-accordion-sample-div {
+    width: 300px;
+}
+
+.underline  {
+    text-decoration: underline;
+    color: red; 
+}
